@@ -150,4 +150,82 @@ Enter you credentials and you are free to go. Ubuntu is installed.
 
 
 
-#### **Thanks for reading this.** 
+## Running your first C program on Linux
+
+Starting programming in Linux is very easy in Linux . If you want to start writing C++ programs on Linux you just have to write the C++ program and then you have to compile your program using compiler provided in Linux and you,re done. The program is ready for Execution. Follow some basic steps with me.
+
+#### Step1:
+
+Check weather the C++ compiler is installed on Linux by running this command.
+
+```bash
+g++ --version
+```
+
+
+
+It is already installed it will print the version of g++ compiler.
+
+![Vmware](ubuntu\g++version.png)
+
+
+
+But if is not installed and giving you error you can install it with following command.
+
+```bash
+sudo apt-get install g++
+```
+
+But if you also want to install whole GNU/g++ compiler collection you can run following command.
+
+```bash
+sudo apt-get install build-essentials
+```
+
+
+
+Now you are ready to write programs in C++ or C. 
+
+#### Step 2:
+
+You can use different text editors in Linux to write programs but now we are gonna use a console base editor to write our first c++ program which is **nano**. It comes pre-installed in Linux.
+
+Give command nano and filename with it and it will open editor for you
+
+![Vmware Workstation](ubuntu\nano.png) 
+
+![Vmware](ubuntu\c++program.png)
+
+
+
+Press **Control+S** to save the program and then **Control+X** to exit the editor.
+
+#### Step 3:
+
+Now you have to compile your written program with g++ compiler 
+
+**Syntax** :
+
+```bash
+g++ [filename] -o [output_filename] 
+```
+
+It will compile and give you output file
+
+![Vmware](ubuntu\compile.png)
+
+
+
+#### Step 4
+
+Now you have to run the program as it is now compiled use ./ and the followed by file name and hit the enter button it will run your file
+
+```bash
+./hello
+```
+
+![Vmware](ubuntu\run.png)
+
+
+
+**Thanks For Reading**
