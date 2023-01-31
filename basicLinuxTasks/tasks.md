@@ -75,11 +75,15 @@ The string "2021-CS-64" is searched in the file 2021CS64.txt using grep command 
 
 ### 8:
 
+The execution permission to group on amarZaidi.txt using chmod g+x command.
+
 ![Ubuntu](img\executionGroup.png)
 
 
 
 ### 9:
+
+write permission is removed from users on amarZaidi.txt using chmod u-w 
 
 ![Ubuntu](img\removeOwner.png)
 
@@ -87,11 +91,15 @@ The string "2021-CS-64" is searched in the file 2021CS64.txt using grep command 
 
 ### 10:
 
+The current directory is shown to user because he lost his position.
+
 ![Ubuntu](img\pwd.png)
 
 
 
 ### 11:
+
+All the files on Desktop directory is shown using ls command ../ is used because i am going back one time from my current position.
 
 ![Ubuntu](img\listDesk.png)
 
@@ -99,13 +107,19 @@ The string "2021-CS-64" is searched in the file 2021CS64.txt using grep command 
 
 ### 12:
 
+Two directories personalFiles and pictures are created for user.
+
 ![Ubuntu](img\personal.png)
 
 
 
 ### 13:
 
+current time is show using date other information like data is also shown.
+
 ![Ubuntu](img\time.png)
+
+
 
 
 
@@ -126,11 +140,15 @@ The string "2021-CS-64" is searched in the file 2021CS64.txt using grep command 
 
 ### 1:
 
+New file is created and the instructions from task1.txt is added in that file.
+
 ![Ubuntu](img\rules.png)
 
 
 
 ### 2:
+
+numeric numbers are calculated for permission on file.
 
 ![Ubuntu](img\binary.png)
 
@@ -138,11 +156,15 @@ The string "2021-CS-64" is searched in the file 2021CS64.txt using grep command 
 
 ### 3:
 
+required permissions are set on file
+
 ![Ubuntu](img\perm.png)
 
 
 
 ### 4:
+
+the permissions of task2.txt is append in task2.txt file
 
 ![Ubuntu](img\append.png)
 
